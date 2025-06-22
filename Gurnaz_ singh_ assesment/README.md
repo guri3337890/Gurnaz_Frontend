@@ -1,40 +1,58 @@
- # Frontend Dashboard Assignment
+# 🧩 Frontend Dashboard Assignment
 
-This is a responsive frontend dashboard built with **React** and **Tailwind CSS**, featuring:
-- ✅ Email/password login (with admin/user roles)
-- 📰 News article feed (mock data)
-- 🔍 Search and filter functionality
-- 🌗 Dark mode toggle
-- 💰 Admin-only payout calculator
-- 📤 Export data to CSV
+A responsive and dynamic frontend dashboard built with **React** and **Tailwind CSS**, developed as part of a frontend developer assessment.
 
-## 🔧 How to Run(importanat part)........
+---
 
-1. **Install dependencies**:
+## 🚀 Features
 
-```bash
-npm install
-```
+- 🔐 Email/password login with **Admin** and **User** roles
+- 📰 Mock news article feed
+- 🔍 Real-time **search and filter** functionality
+- 🌗 **Dark mode** toggle
+- 💰 **Admin-only payout calculator**
+- 📤 Export data to **CSV**
+- 💾 Session and payout rate persistence using **localStorage**
 
-2. **Start the development server**:
+---
 
-```bash
-npm start
-```
+## 🔧 How to Run (Important)
 
-The app runs at `http://localhost:3000`.
+> Make sure you are in the root directory where this project folder exists.
+
+1. **Navigate into the project folder**:
+   ```bash
+   cd Gurnaz_Frontend-main
+   cd "Gurnaz_ singh_ assesment"
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
+
+> The app will be running at: [http://localhost:3000](http://localhost:3000)
+
+---
 
 ## 🔐 Login Credentials
 
-| Role  | Email                | Password   |
-|-------|----------------------|------------|
-| Admin | admin@example.com    | admin123   |
-| User  | user@example.com     | user123    |
+| Role  | Email              | Password   |
+|-------|--------------------|------------|
+| Admin | admin@example.com  | admin123   |
+| User  | user@example.com   | user123    |
 
-## 📂 Project Structure
+---
+
+## 🗂️ Project Structure
 
 ```
-frontend-dashboard/
+Gurnaz_ singh_ assesment/
 ├── public/
 │   └── index.html
 ├── src/
@@ -54,13 +72,17 @@ frontend-dashboard/
 └── README.md
 ```
 
+---
+
 ## 🧪 Tech Stack
 
-- React 18
-- Tailwind CSS
-- file-saver (for CSV export)
-- LocalStorage for session and payout rate persistence
+- ⚛️ React 18
+- 💨 Tailwind CSS
+- 📦 `file-saver` for CSV export
+- 💾 localStorage for session and settings persistence
 
 ---
 
-Built with ❤️ for the Frontend Developer Assignment.
+## 📌 Notes
+
+Built with ❤️ as part of a **Frontend Developer Assessment**.
